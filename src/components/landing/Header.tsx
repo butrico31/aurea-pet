@@ -74,7 +74,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <nav className="md:hidden pb-6 animate-fade-in bg-white w-[100vw]">
+          <nav className="md:hidden pb-6 animate-fade-in bg-white w-[100vw] -mx-4 px-4">
             <div className="flex flex-col gap-4">
               {menuItems.map((item) => (
                 <button
