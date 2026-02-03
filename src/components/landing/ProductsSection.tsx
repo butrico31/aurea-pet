@@ -1,4 +1,4 @@
-import { Hotel, Scissors, Car, Cat, Home } from "lucide-react";
+import { Hotel, Scissors, Car, Cat, Home, Stethoscope } from "lucide-react";
 import productsImage from "/cachorros-brincando.jfif";
 
 const differentials = [
@@ -26,6 +26,11 @@ const differentials = [
     icon: Home,
     title: "Portas Abertas",
     description: "Visite nosso espaço quando quiser e conheça onde seu pet ficará"
+  },
+  {
+    icon: Stethoscope,
+    title: "Clínica Veterinária",
+    description: "Atendimento veterinário nas instalações para maior segurança e tranquilidade"
   }
 ];
 
@@ -41,7 +46,8 @@ const ProductsSection = () => {
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               Na Áurea Pet, você encontra todos os serviços que seu pet precisa em Mogi Mirim. 
               Somos o primeiro hotel da região com hospedagem especializada para gatos, além de 
-              oferecer creche, banho e tosa e transporte. Tudo com amor e dedicação!
+              oferecer creche, banho e tosa, transporte e clínica veterinária nas instalações. 
+              Tudo com amor e dedicação!
             </p>
             
             <div className="grid sm:grid-cols-2 gap-6">

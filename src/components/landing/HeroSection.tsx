@@ -31,7 +31,7 @@ const HeroSection = () => {
           </div>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            Hotel e creche especializado para cães e gatos em Mogi Mirim. 
+            Hotel e creche especializado para cães e gatos em Mogi Mirim com clínica veterinária nas instalações. 
             O primeiro da região com hospedagem adaptada para felinos!
           </p>
           
@@ -46,10 +46,14 @@ const HeroSection = () => {
             </Button>
           </div>
           
-          <div className="mt-8 flex items-center gap-6 text-sm text-muted-foreground">
+          <div className="mt-8 flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <div className="h-2 w-2 rounded-full bg-secondary animate-pulse" />
               Ambientes Climatizados
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="h-2 w-2 rounded-full bg-secondary animate-pulse" />
+              Clínica Veterinária no Local
             </div>
           </div>
         </div>

@@ -30,7 +30,8 @@ const AboutSection = () => {
           <p className="text-xl text-muted-foreground leading-relaxed">
             Somos a Áurea Pet, um espaço completo dedicado ao bem-estar dos animais de 
             estimação em Mogi Mirim. Atuamos como hotel e creche para cães e gatos, 
-            além de oferecermos banho e tosa e táxi pet.
+            além de oferecermos banho e tosa, táxi pet e contamos com clínica veterinária 
+            nas instalações para maior segurança e tranquilidade.
           </p>
         </div>
         
@@ -51,7 +52,8 @@ const AboutSection = () => {
                 cuidar do seu melhor amigo com segurança, carinho e praticidade. Nos destacamos 
                 por sermos o primeiro hotel/creche da região com hospedagem adaptada e 
                 especializada para gatos, além de áreas climatizadas e separadas por porte para 
-                garantir o conforto de todos.
+                garantir o conforto de todos. Contamos também com clínica veterinária nas 
+                instalações para atendimento imediato sempre que necessário.
               </p>
               
               <div className="grid gap-6">
